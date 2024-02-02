@@ -12,3 +12,10 @@ let randomNumber = Math.random() * 3
 // console.log(randomNumber);
 randomNumber = Math.ceil(randomNumber)
 console.log(randomNumber); // 5
+
+ console.log("Let It Go!" .toUpperCase() .repeat(2).trim()); // 6
+let reindeers = "Reindeers are better than people" // 7a
+console.log(reindeers.replaceAll(" ","_")); // 7b
+console.log(Math.SQRT2); // 8
+let newRandomNumber =  Math.floor(Math.random() *17) +7
+console.log(newRandomNumber);
